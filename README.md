@@ -7,6 +7,10 @@ Our mission is to build a foundational open-source project dedicated to advanced
 
 Beyond its core functionality, this project supports multiple simultaneous streams from diverse sources, including local files, network streams, individual cameras, and integrated camera systems. It is also intended to be a robust repository for knowledge, documentation, and discourse regarding all things video, providing a platform for innovation through computer vision plugins and collaborative research.
 
+## High Level Architecture
+
+![Open DVR Flow](docs/open-dvr-flow.png)
+
 ### Patent Licensing Note
 
 This project and its authors and contributors are not responsible for obtaining licenses for use of any patented encoding/decoding technologies. The responsibility lies with the end user/implementor of this code.
