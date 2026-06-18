@@ -7,6 +7,18 @@ Our mission is to build a foundational open-source project dedicated to advanced
 
 Beyond its core functionality, this project supports multiple simultaneous streams from diverse sources, including local files, network streams, individual cameras, and integrated camera systems. It is also intended to be a robust repository for knowledge, documentation, and discourse regarding all things video, providing a platform for innovation through computer vision plugins and collaborative research.
 
+## Features and Capabilities
+
+- **Multiple Video Playback:** Support for multiple simultaneous video DVR and playback, limited by hardware resources.
+- **Streaming:** Stream video content both in and out.
+- **Full DVR:** Play, pause, stop, reverse, step, slow, fast, and view thumbnails.
+- **Extract Clips:** Easily extract clips from video recordings.
+- **Trim:** Trim videos to specific start and end points.
+- **Metadata Display:** Display detailed metadata for video streams.
+- **Transcode:** Transcode video between different formats.
+- **Live Graphical Annotation:** Apply graphical annotations to live video feeds.
+- **Vision Plugins:** Extend functionality with computer vision plugins.
+
 ## High Level Architecture
 
 ![Open DVR Flow](docs/open-dvr-flow.png)
