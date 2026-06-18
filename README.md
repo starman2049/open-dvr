@@ -18,6 +18,7 @@ Beyond its core functionality, this project supports multiple simultaneous strea
 - **Transcode:** Transcode video between different formats.
 - **Live Graphical Annotation:** Apply graphical annotations to live video feeds.
 - **Vision Plugins:** Extend functionality with computer vision plugins.
+- **Digital Zoom:** Digital zoom of live playback with pan control for visual exploration in realtime.
 
 ## High Level Architecture
 
