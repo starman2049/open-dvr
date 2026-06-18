@@ -11,7 +11,7 @@ Beyond its core functionality, this project supports multiple simultaneous strea
 
 - **Multiple Video Playback:** Support for multiple simultaneous video DVR and playback, limited by hardware resources.
 - **Streaming:** Stream video content both in and out.
-- **Full DVR:** Play, pause, stop, reverse, step, slow, fast, and view thumbnails.
+- **Full DVR:** Play, pause, stop, reverse, step, slow, fast, and jog/scrub timeline with thumbnail preview for macro search.
 - **Extract Clips:** Easily extract clips from video recordings.
 - **Trim:** Trim videos to specific start and end points.
 - **Metadata Display:** Display detailed metadata for video streams.
