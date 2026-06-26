@@ -24,6 +24,18 @@ Beyond its core functionality, this project supports multiple simultaneous strea
 
 ![Open DVR Flow](docs/open-dvr-flow.png)
 
+##Milestones
+<table>
+<tr><td>Item</td><td>Purpose</td><td>Status</td></tr>
+<tr><td>One-pager high level overview</td><td>Succinctly describe what the top-level objectives of the project are</td><td>DONE</td></tr>
+<tr><td>High level block diagram</td><td>Lay out the major building blocks and how video flows</td><td>DONE</td></tr>
+<tr><td>Building blocks</td><td>Identify all the major building blocks for the project</td><td></td></tr>
+<tr><td>Interfaces</td><td>First pass interfaces for all the major building blocks</td><td></td></tr>
+<tr><td>Initial project structure</td><td>Implement the classes and interfaces for the project</td><td></td></tr>
+<tr><td>Initial project build system</td><td>Cmake build system</td><td></td></tr>
+</table>
+
+
 ### Patent Licensing Note
 
 This project and its authors and contributors are not responsible for obtaining licenses for use of any patented encoding/decoding technologies. The responsibility lies with the end user/implementor of this code.
