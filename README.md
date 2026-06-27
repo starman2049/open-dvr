@@ -35,6 +35,11 @@ Beyond its core functionality, this project supports multiple simultaneous strea
 <tr><td>Initial project build system</td><td>Cmake build system</td><td></td></tr>
 </table>
 
+## Major components
+<table>
+<tr><td>Id</td><td>Purpose</td></tr>
+<tr><td>VAL</td><td>Video abstraction layer. Isolates the rest of the system from GStreamer and Ffmmpeg</td></tr>
+</table>
 
 ### Patent Licensing Note
 
