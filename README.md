@@ -24,7 +24,7 @@ Beyond its core functionality, this project supports multiple simultaneous strea
 
 ![Open DVR Flow](docs/open-dvr-flow.png)
 
-##Milestones
+## Milestones
 <table>
 <tr><td>Item</td><td>Purpose</td><td>Status</td></tr>
 <tr><td>One-pager high level overview</td><td>Succinctly describe what the top-level objectives of the project are</td><td>DONE</td></tr>
