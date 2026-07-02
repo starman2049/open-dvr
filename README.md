@@ -20,6 +20,13 @@ Beyond its core functionality, this project supports multiple simultaneous strea
 - **Vision Plugins:** Extend functionality with computer vision plugins.
 - **Digital Zoom:** Digital zoom of live playback with pan control for visual exploration in realtime.
 
+## Uses
+
+- Video editing
+- Tactical ISR review
+- Sporting event review
+- Video surveillance
+
 ## High Level Architecture
 
 ![Open DVR Flow](docs/open-dvr-flow.png)
