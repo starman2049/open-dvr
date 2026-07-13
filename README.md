@@ -49,6 +49,13 @@ Finally the authors intend to not only produce DVR and video libraries but also 
 <table>
 <tr><td>Id</td><td>Purpose</td></tr>
 <tr><td>VAL</td><td>Video abstraction layer. Isolates the rest of the system from GStreamer and Ffmmpeg</td></tr>
+<tr><td>GStreamer Engine</td><td>Implementation of all VAL endpoints using GStreamer</td></tr>
+<tr><td>Ffmpeg Engine</td><td>Implementation of all VAL endpoints using Ffmpeg</td></tr>
+<tr><td>UDP Reader</td><td>Raw video packet reader</td></tr>
+<tr><td>I/O Stream Manager</td><td>Manages I/O streams, provides caching</td></tr>
+<tr><td>Demuxer</td><td>Splits input streams into video, audio, and metadata</td></tr>
+<tr><td>Output streamer</td><td>Streams videos out</td></tr>
+<tr><td>Visualization and processing</td><td>Directs decoded video frames to AI/Computer Vision processing and to display</td></tr>
 </table>
 
 ### Patent Licensing Note
