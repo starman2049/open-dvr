@@ -39,7 +39,7 @@ Finally the authors intend to not only produce DVR and video libraries but also 
 <tr><th>Item</th><th>Purpose</th><th>Status</th></tr>
 <tr><td>One-pager high level overview</td><td>Succinctly describe what the top-level objectives of the project are</td><td>DONE</td></tr>
 <tr><td>High level block diagram</td><td>Lay out the major building blocks and how video flows</td><td>DONE</td></tr>
-<tr><td>Building blocks</td><td>Identify all the major building blocks for the project</td><td></td></tr>
+<tr><td>Building blocks</td><td>Identify all the major building blocks for the project</td><td>IP</td></tr>
 <tr><td>Interfaces</td><td>First pass interfaces for all the major building blocks</td><td></td></tr>
 <tr><td>Initial project structure</td><td>Implement the classes and interfaces for the project</td><td></td></tr>
 <tr><td>Initial project build system</td><td>Cmake build system</td><td></td></tr>
