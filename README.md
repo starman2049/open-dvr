@@ -47,7 +47,7 @@ Finally the authors intend to not only produce DVR and video libraries but also 
 
 ## Building blocks
 <table>
-<tr><td>Block</td><td>Purpose</td></tr>
+<tr><th>Block</th><th>Purpose</th></tr>
 <tr><td>VAL</td><td>Video abstraction layer. Isolates the rest of the system from GStreamer and Ffmpeg</td></tr>
 <tr><td>GStreamer Engine</td><td>Implementation of all VAL endpoints using GStreamer</td></tr>
 <tr><td>Ffmpeg Engine</td><td>Implementation of all VAL endpoints using Ffmpeg</td></tr>
