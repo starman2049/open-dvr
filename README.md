@@ -25,10 +25,10 @@ Finally the authors intend to not only produce DVR and video libraries but also 
 
 ## Uses
 
-- Video editing
 - Tactical ISR review
 - Sporting event review
 - Video surveillance
+- Video editing
 
 ## High Level Architecture
 
@@ -45,18 +45,19 @@ Finally the authors intend to not only produce DVR and video libraries but also 
 <tr><td>Initial project build system</td><td>Cmake build system</td><td></td></tr>
 </table>
 
-## Major components
+## Building blocks
 <table>
-<tr><td>Component</td><td>Purpose</td></tr>
-<tr><td>VAL</td><td>Video abstraction layer. Isolates the rest of the system from GStreamer and Ffmmpeg</td></tr>
+<tr><td>Block</td><td>Purpose</td></tr>
+<tr><td>VAL</td><td>Video abstraction layer. Isolates the rest of the system from GStreamer and Ffmpeg</td></tr>
 <tr><td>GStreamer Engine</td><td>Implementation of all VAL endpoints using GStreamer</td></tr>
 <tr><td>Ffmpeg Engine</td><td>Implementation of all VAL endpoints using Ffmpeg</td></tr>
-<tr><td>UDP Reader</td><td>Raw video packet reader</td></tr>
+<tr><td>UDP Reader</td><td>Raw video packet reader via sockets</td></tr>
 <tr><td>I/O Stream Manager</td><td>Manages I/O streams, provides caching</td></tr>
 <tr><td>Demuxer</td><td>Splits input streams into video, audio, and metadata</td></tr>
-<tr><td>MISB Decoders</td><td>Decodes and publishes MISB Metadataof varying format</td></tr>
-<tr><td>Output streamer</td><td>Streams videos out</td></tr>
+<tr><td>MISB Decoders</td><td>Decodes and publishes MISB Metadata of varying format</td></tr>
+<tr><td>Output streamer</td><td>Stream video out</td></tr>
 <tr><td>Visualization and processing</td><td>Directs decoded video frames to AI/Computer Vision processing and to display</td></tr>
+<tr><td>Annotation</td><td>Adds graphical annotations to live video.  Adds sound annotations to live video</td></tr>
 </table>
 
 ### Patent Licensing Note
