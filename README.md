@@ -36,7 +36,7 @@ Finally the authors intend to not only produce DVR and video libraries but also 
 
 ## Milestones
 <table>
-<tr><td>Item</td><td>Purpose</td><td>Status</td></tr>
+<tr><th>Item</th><th>Purpose</th><th>Status</th></tr>
 <tr><td>One-pager high level overview</td><td>Succinctly describe what the top-level objectives of the project are</td><td>DONE</td></tr>
 <tr><td>High level block diagram</td><td>Lay out the major building blocks and how video flows</td><td>DONE</td></tr>
 <tr><td>Building blocks</td><td>Identify all the major building blocks for the project</td><td></td></tr>
